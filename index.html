@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>junecontest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="main-contianer">
+            <div class="search-container">
+                  <div class="form-control">
+                    <input type="text" id="mYinput" class="in-control" placeholder="Search By Name or Symbol " onkeyup="searchup()">
+                    <button type="button" class="btn" id="btn1">Sort By Mkt Cap</button>
+                    <button type="button" class="btn" id="btn2" onclick="myClickpercentage()">Sort by percentage</button>
+                  </div>
+            </div>
+
+            <div id="table-box">
+                <table id="table-data">
+                    <tbody id="data-json">       
+                    </tbody>
+                </table>
+            </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
